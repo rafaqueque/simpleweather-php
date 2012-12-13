@@ -18,8 +18,6 @@ Get weather forecast by search term
 
 You can define if you want Celsius (c) or Farenheit (f) degrees by simply adding a "degrees" option to the construct array, like this:
 	
-	include("simpleweather.class.php");
-	
 	$weather = new SimpleWeather(array("place" => "Lisbon, PT", "degrees" => "c"));
 
 	var_dump($weather->getResult());
